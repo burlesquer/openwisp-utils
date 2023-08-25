@@ -37,7 +37,7 @@ Bugfixes
   over-written when multiple dashboard templates
   are used
 - Fixed `empty dashboard charts not displaying total as "0"
-  <https://github.com/openwisp/openwisp-utils/issues/301>`_
+  <https://github.com/burlesquer/openwisp-utils/issues/301>`_
 
 Version 1.0.1 [2022-04-07]
 --------------------------
@@ -52,18 +52,18 @@ Version 1.0.0 [2022-02-18]
 Features
 ~~~~~~~~
 
-- Added `customizable navigation menu <https://github.com/openwisp/openwisp-utils#main-navigation-menu>`_
-- Added `horizontal filters <https://github.com/openwisp/openwisp-utils#admin-filters>`_
-- Added `customizable admin dashboard <https://github.com/openwisp/openwisp-utils#openwisp-dashboard>`_
-- Added `send_email function <https://github.com/openwisp/openwisp-utils#openwisp_utilsadmin_themeemailsend_email>`_
-- Added `CompressStaticFilesStorage <https://github.com/openwisp/openwisp-utils#openwisp_utilsstoragecompressstaticfilesstorage>`_ -
+- Added `customizable navigation menu <https://github.com/burlesquer/openwisp-utils#main-navigation-menu>`_
+- Added `horizontal filters <https://github.com/burlesquer/openwisp-utils#admin-filters>`_
+- Added `customizable admin dashboard <https://github.com/burlesquer/openwisp-utils#openwisp-dashboard>`_
+- Added `send_email function <https://github.com/burlesquer/openwisp-utils#openwisp_utilsadmin_themeemailsend_email>`_
+- Added `CompressStaticFilesStorage <https://github.com/burlesquer/openwisp-utils#openwisp_utilsstoragecompressstaticfilesstorage>`_ -
   a static storage backend for Django that also compresses static files
-- Added `AssertNumQueriesSubTestMixin <https://github.com/openwisp/openwisp-utils#openwisp_utilstestsassertnumqueriessubtestmixin>`_
-- Added `HelpTextStackedInline admin class <https://github.com/openwisp/openwisp-utils#openwisp_utilsadminhelptextstackedinline>`_
-- Added `OpenwispCeleryTask <https://github.com/openwisp/openwisp-utils#openwisp-utils-tasks-openwispcelerytask>`_ - a custom celery task class
-- Added support for linting CSS and JS in `openwisp-qa-check <https://github.com/openwisp/openwisp-utils#openwisp-qa-check>`_
-- Added support for formatting CSS and JS in `openwisp-qa-format <https://github.com/openwisp/openwisp-utils#openwisp-qa-format>`_
-- Added `git pre-push hook <https://github.com/openwisp/openwisp-utils/issues/161>`_
+- Added `AssertNumQueriesSubTestMixin <https://github.com/burlesquer/openwisp-utils#openwisp_utilstestsassertnumqueriessubtestmixin>`_
+- Added `HelpTextStackedInline admin class <https://github.com/burlesquer/openwisp-utils#openwisp_utilsadminhelptextstackedinline>`_
+- Added `OpenwispCeleryTask <https://github.com/burlesquer/openwisp-utils#openwisp-utils-tasks-openwispcelerytask>`_ - a custom celery task class
+- Added support for linting CSS and JS in `openwisp-qa-check <https://github.com/burlesquer/openwisp-utils#openwisp-qa-check>`_
+- Added support for formatting CSS and JS in `openwisp-qa-format <https://github.com/burlesquer/openwisp-utils#openwisp-qa-format>`_
+- Added `git pre-push hook <https://github.com/burlesquer/openwisp-utils/issues/161>`_
 
 Changes
 ~~~~~~~
@@ -82,7 +82,7 @@ Changes
 Bugfixes
 ~~~~~~~~
 
-- Fixed `checkcommit` failing for `trailing period (.) after closing keyword <https://github.com/openwisp/openwisp-utils/issues/187>`_
+- Fixed `checkcommit` failing for `trailing period (.) after closing keyword <https://github.com/burlesquer/openwisp-utils/issues/187>`_
 
 Version 0.7.5 [2021-06-01]
 --------------------------
@@ -121,15 +121,15 @@ Version 0.7.0 [2020-11-13]
 Features
 ~~~~~~~~
 
-- [qa] Added a `ReStructuredText syntax check (checkrst) <https://github.com/openwisp/openwisp-utils#checkrst>`_
+- [qa] Added a `ReStructuredText syntax check (checkrst) <https://github.com/burlesquer/openwisp-utils#checkrst>`_
   to ``openwisp-qa-check``, which allows to ensure ``README.rst`` and other top level rst files
   do not contain syntax errors
-- [utils] Added `register_menu_items <https://github.com/openwisp/openwisp-utils#openwisp-utils-utils-register-menu-items>`_
+- [utils] Added `register_menu_items <https://github.com/burlesquer/openwisp-utils#openwisp-utils-utils-register-menu-items>`_
   to easily register menu items
 - [tests] Added test utilities to capture output (eg: to make assertions on it):
-  `capture_stdout <https://github.com/openwisp/openwisp-utils#openwisp-utils-tests-capture-stdout>`_,
-  `capture_stderr <https://github.com/openwisp/openwisp-utils#openwisp_utilstestscapture_stderr>`_,
-  `capture_any_output <https://github.com/openwisp/openwisp-utils#openwisp_utilstestscapture_any_output>`_
+  `capture_stdout <https://github.com/burlesquer/openwisp-utils#openwisp-utils-tests-capture-stdout>`_,
+  `capture_stderr <https://github.com/burlesquer/openwisp-utils#openwisp_utilstestscapture_stderr>`_,
+  `capture_any_output <https://github.com/burlesquer/openwisp-utils#openwisp_utilstestscapture_any_output>`_
 
 Changes
 ~~~~~~~
@@ -277,7 +277,7 @@ Version 0.3.0 [2019-12-10]
 - Added ``AlwaysHasChangedMixin``
 - Added ``UUIDModel``
 - Moved multitenancy features to
-  `openwisp-users <https://github.com/openwisp/openwisp-users>`_
+  `openwisp-users <https://github.com/burlesquer/openwisp-users>`_
 - [qa] Added ``checkendline``, ``checkmigrations``, ``checkcommit``,
   later integrated in ``openwisp-utils-qa-checks`` (corrected)
 - Added navigation menu
@@ -286,29 +286,29 @@ Version 0.3.0 [2019-12-10]
 Version 0.2.2 [2018-12-02]
 --------------------------
 
-- `#20 <https://github.com/openwisp/openwisp-utils/issues/20>`_:
+- `#20 <https://github.com/burlesquer/openwisp-utils/issues/20>`_:
   [qa] Added ``checkcommit`` QA check (thanks to `@ppabcd <https://github.com/ppabcd>`_)
 
 Version 0.2.1 [2018-11-04]
 --------------------------
 
-- `dc977d2 <https://github.com/openwisp/openwisp-utils/commit/dc977d2>`_:
+- `dc977d2 <https://github.com/burlesquer/openwisp-utils/commit/dc977d2>`_:
   [multitenancy] Avoid failure if org field not present
-- `#13 <https://github.com/openwisp/openwisp-utils/pull/13>`_:
+- `#13 <https://github.com/burlesquer/openwisp-utils/pull/13>`_:
   [DRF] Added ``BaseSerializer``
-- `#16 <https://github.com/openwisp/openwisp-utils/pull/16>`_:
+- `#16 <https://github.com/burlesquer/openwisp-utils/pull/16>`_:
   [qa] Added migration filename check
-- `babbd74 <https://github.com/openwisp/openwisp-utils/commit/babbd74>`_:
+- `babbd74 <https://github.com/burlesquer/openwisp-utils/commit/babbd74>`_:
   [multitenancy] Added ``MultitenantAdminMixin.multitenant_parent``
-- `6d45df5 <https://github.com/openwisp/openwisp-utils/commit/6d45df5>`_:
+- `6d45df5 <https://github.com/burlesquer/openwisp-utils/commit/6d45df5>`_:
   [qa] Pin down ``flake8`` and ``isort`` in ``extra_requires['qa']``
 
 Version 0.2.0 [2018-02-06]
 --------------------------
 
-- `#10 <https://github.com/openwisp/openwisp-utils/pull/10>`_:
+- `#10 <https://github.com/burlesquer/openwisp-utils/pull/10>`_:
   [qa] add django 2.0 compatibility
-- `d742d4 <https://github.com/openwisp/openwisp-utils/commit/d742d4>`_:
+- `d742d4 <https://github.com/burlesquer/openwisp-utils/commit/d742d4>`_:
   [version] Improved get_version to follow PEP440
 
 Version 0.1.2 [2017-07-10]

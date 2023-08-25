@@ -1,8 +1,8 @@
 openwisp-utils
 ==============
 
-.. image:: https://github.com/openwisp/openwisp-utils/workflows/OpenWISP%20Utils%20CI%20Build/badge.svg?branch=master
-   :target: https://github.com/openwisp/openwisp-utils/actions?query=workflow%3A%22OpenWISP+Utils+CI+Build%22
+.. image:: https://github.com/burlesquer/openwisp-utils/workflows/OpenWISP%20Utils%20CI%20Build/badge.svg?branch=master
+   :target: https://github.com/burlesquer/openwisp-utils/actions?query=workflow%3A%22OpenWISP+Utils+CI+Build%22
    :alt: CI build status
 
 .. image:: https://coveralls.io/repos/github/openwisp/openwisp-utils/badge.svg
@@ -89,13 +89,13 @@ Install tarball:
 
 .. code-block:: shell
 
-    pip install https://github.com/openwisp/openwisp-utils/tarball/master
+    pip install https://github.com/burlesquer/openwisp-utils/tarball/master
 
 Alternatively you can install via pip using git:
 
 .. code-block:: shell
 
-    pip install -e git+git://github.com/openwisp/openwisp-utils#egg=openwisp-utils
+    pip install -e git+git://github.com/burlesquer/openwisp-utils#egg=openwisp-utils
 
 Using the ``admin_theme``
 -------------------------
@@ -317,7 +317,7 @@ Allows including a specific django template in the OpenWISP dashboard.
 
 It is designed to allow the inclusion of the geographic map
 shipped by
-`OpenWISP Monitoring <https://github.com/openwisp/openwisp-monitoring>`_
+`OpenWISP Monitoring <https://github.com/burlesquer/openwisp-monitoring>`_
 but can be used to include any custom element in the dashboard.
 
 **Note**: it is possible to register templates to be loaded
@@ -521,8 +521,8 @@ Code example:
     )
 
 For real world examples, look at the code of
-`OpenWISP Controller <https://github.com/openwisp/openwisp-controller>`__
-and `OpenWISP Monitoring <https://github.com/openwisp/openwisp-monitoring>`_.
+`OpenWISP Controller <https://github.com/burlesquer/openwisp-controller>`__
+and `OpenWISP Monitoring <https://github.com/burlesquer/openwisp-monitoring>`_.
 
 **Note**: an ``ImproperlyConfigured`` exception is raised if a
 dashboard element is already registered at same position.
@@ -530,7 +530,7 @@ dashboard element is already registered at same position.
 It is recommended to register dashboard charts from the ``ready`` method
 of the AppConfig of the app where the models are defined.
 Checkout `app.py of the test_project
-<https://github.com/openwisp/openwisp-utils/blob/master/tests/test_project/apps.py>`_
+<https://github.com/burlesquer/openwisp-utils/blob/master/tests/test_project/apps.py>`_
 for reference.
 
 ``unregister_dashboard_chart``
@@ -864,7 +864,7 @@ to know how to configure your OpenWISP instance to load custom CSS files.
 Admin filters
 -------------
 
-.. figure:: https://github.com/openwisp/openwisp-utils/raw/media/docs/filter.gif
+.. figure:: https://github.com/burlesquer/openwisp-utils/raw/media/docs/filter.gif
   :align: center
 
 The ``admin_theme`` sub app provides an improved UI for the changelist filter
@@ -1111,7 +1111,7 @@ An admin class that provides an URL as a read-only input field
 ``openwisp_utils.admin.HelpTextStackedInline``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: https://github.com/openwisp/openwisp-utils/raw/media/docs/help-text-stacked-inline.png
+.. figure:: https://github.com/burlesquer/openwisp-utils/raw/media/docs/help-text-stacked-inline.png
   :align: center
 
 A stacked inline admin class that displays a help text for entire
@@ -1135,7 +1135,7 @@ inline object. Following is an example:
             ),
             # (optional) You can provide a link to documentation for user reference
             'documentation_url': (
-                'https://github.com/openwisp/openwisp-utils'
+                'https://github.com/burlesquer/openwisp-utils'
             )
             # (optional) Icon to be shown along with help text. By default it uses
             # "/static/admin/img/icon-alert.svg"
@@ -1884,7 +1884,7 @@ to detect slow tests (0.3s by default) and highlight the slowest ones (1s by def
 
 Allows to pass a list of **Unix shell-style wildcards** for files to be excluded by `CompressStaticFilesStorage <#openwisp_utilsstorageCompressStaticFilesStorage>`_.
 
-By default Leaflet PNGs have been excluded to avoid bugs like `openwisp/ansible-openwisp2#232 <https://github.com/openwisp/ansible-openwisp2/issues/232>`_.
+By default Leaflet PNGs have been excluded to avoid bugs like `openwisp/ansible-openwisp2#232 <https://github.com/burlesquer/ansible-openwisp2/issues/232>`_.
 
 Example usage:
 
@@ -1941,7 +1941,7 @@ It is recommended to extend the default email template as in the example below.
     {% endblock styles %}
 
 Similarly, you can customize the HTML of the template by overriding the ``body`` block.
-See `email_template.html <https://github.com/openwisp/openwisp-utils/blob/
+See `email_template.html <https://github.com/burlesquer/openwisp-utils/blob/
 master/openwisp_utils/admin_theme/templates/openwisp_utils/email_template.html>`_
 for reference implementation.
 
@@ -2074,17 +2074,17 @@ See `OpenWISP Support Channels <http://openwisp.org/support.html>`_.
 Changelog
 ---------
 
-See `CHANGES <https://github.com/openwisp/openwisp-utils/blob/master/CHANGES.rst>`_.
+See `CHANGES <https://github.com/burlesquer/openwisp-utils/blob/master/CHANGES.rst>`_.
 
 License
 -------
 
-See `LICENSE <https://github.com/openwisp/openwisp-utils/blob/master/LICENSE>`_.
+See `LICENSE <https://github.com/burlesquer/openwisp-utils/blob/master/LICENSE>`_.
 
 Attribution
 -----------
 
-- `Wireless icon <https://github.com/openwisp/openwisp-utils/blob/master/openwisp_utils/admin_theme/static/ui/openwisp/images/monitoring-wifi.svg>`_
+- `Wireless icon <https://github.com/burlesquer/openwisp-utils/blob/master/openwisp_utils/admin_theme/static/ui/openwisp/images/monitoring-wifi.svg>`_
   is licensed by Gregbaker, under `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>`_ ,
   via `Wikimedia Commons <https://commons.wikimedia.org/wiki/File:Wireless-icon.svg>`_.
 - `Roboto webfont <https://www.google.com/fonts/specimen/Roboto>`_ is licensed
